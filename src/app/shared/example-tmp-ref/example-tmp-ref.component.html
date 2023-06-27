@@ -1,0 +1,3 @@
+<h2>Conteúdo dinâmico usando template Ref</h2>
+<!-- <ng-template [ngTemplateOutlet]="tmp" [ngTemplateOutletContext]="{$implicit: user}"></ng-template> -->
+<ng-template *ngTemplateOutlet="tmp; context:{$implicit: user}"></ng-template>
